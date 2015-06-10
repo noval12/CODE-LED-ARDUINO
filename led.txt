@@ -1,0 +1,30 @@
+LED KEDIP 
+
+void setup() {
+pinMode(4,OUTPUT); //LED 1 
+pinMode(5,OUTPUT); //LED 2
+pinMode(2,OUTPUT); //LED 3
+pinMode(3,OUTPUT); //LED 4
+}
+void loop() {
+digitalWrite(4,HIGH);
+digitalWrite(5,LOW);
+digitalWrite(2,LOW);
+digitalWrite(3,LOW);
+delay(1000);
+digitalWrite(4,LOW);
+digitalWrite(5,HIGH);
+digitalWrite(2,LOW);
+digitalWrite(3,LOW);
+delay(1000);
+digitalWrite(4,LOW);
+digitalWrite(5,LOW);
+digitalWrite(2,HIGH);
+digitalWrite(3,LOW);
+delay(1000);
+digitalWrite(4,LOW);
+digitalWrite(5,LOW);
+digitalWrite(2,LOW);
+digitalWrite(3,HIGH);
+delay(1000);
+}
